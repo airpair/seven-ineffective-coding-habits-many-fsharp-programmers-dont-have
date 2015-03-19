@@ -194,7 +194,7 @@ type RecentlyUsedList () =
     …
 ```
 
-Whilst F# has no way to stop you from exposing the items list publically, functional programmers are very conscious of maintaining the immutability facade so even if a F#’er is using a mutable list internally he would not have allowed it to leak outside.
+Whilst F# has no way to stop you from exposing the items list publicly, functional programmers are very conscious of maintaining the immutability facade so even if a F#’er is using a mutable list internally he would not have allowed it to leak outside.
 
 In fact, a F#’er would probably have implemented a `RecentlyUsedList` differently, for instance:
 
